@@ -43,6 +43,13 @@ There is now a Visual Studio solution supplied.
 
 [Compilation setup instructions (archived from original repo)](https://web.archive.org/web/20201025005256/https://github.com/anthonyheddings/OfficeKeyFix/issues/1).
 
+# Development
+
+## Virtual-Key Codes
+
+To get the Virtual-Key Codes visit the following Microsoft website:
+https://docs.microsoft.com/en-us/windows/win32/inputdev/virtual-key-codes
+
 # Alternatives
 
 This [branch](https://github.com/acook/OfficeKeyFix/tree/logon) is a complete rewrite of this project which removes the explorer restarting and runs in the background ensuring that explorer doesn't try to reacquire the keybindings. It may be useful as well.
