@@ -43,12 +43,13 @@ There is now a Visual Studio solution supplied.
 
 [Compilation setup instructions (archived from original repo)](https://web.archive.org/web/20201025005256/https://github.com/anthonyheddings/OfficeKeyFix/issues/1).
 
-# Development
+# Development Resources
 
-## Virtual-Key Codes
+## Microsoft Documentation
 
-To get the Virtual-Key Codes visit the following Microsoft website:
-https://docs.microsoft.com/en-us/windows/win32/inputdev/virtual-key-codes
+- [Virtual-Key Codes](https://docs.microsoft.com/en-us/windows/win32/inputdev/virtual-key-codes)
+- [RegisterHotKey function](https://learn.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-registerhotkey)
+- [UnregisterHotKey function](https://learn.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-unregisterhotkey)
 
 # Alternatives
 
@@ -61,6 +62,7 @@ Originally by Anthony Heddings, whose [account](https://archive.softwareheritage
 - @mlidbom     - provided the Visual Studio solution
 - @Vechro      - several improvements pulled from their fork
 - @jorystewart - dynamic key checks
+- @Gh3ttoKinG  - documentation resources
 - @acook       - basic maintenance 
 
 The [logon branch](https://github.com/acook/OfficeKeyFix/tree/logon) was written by me (@acook) with almost nothing remaining of the original.
