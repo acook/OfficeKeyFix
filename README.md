@@ -16,8 +16,12 @@ This [branch](https://github.com/acook/OfficeKeyFix/tree/logon) is a complete re
 
 Originally by Anthony Heddings, whose [account](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/anthonyheddings/OfficeKeyFix) disappeared years ago. My fork became the new source (presumably) because it just happened to be the oldest.
 
-The [logon branch](https://github.com/acook/OfficeKeyFix/tree/logon) was written by me, with almost nothing remaining of the original.
+- @mlidbom     - provided the Visual Studio solution
+- @Vechro      - several improvements pulled from their fork
+- @jorystewart - dynamic key checks
+- @acook       - basic maintenance 
 
+The [logon branch](https://github.com/acook/OfficeKeyFix/tree/logon) was written by me (@acook) with almost nothing remaining of the original.
 
 # License
 
