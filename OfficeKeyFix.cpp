@@ -19,7 +19,7 @@ int main(int argc, wchar_t* argv[])
 	}
 
 	//Restart Explorer
-	system("start C:/Windows/explorer.exe");
+	system("start explorer.exe");
 
 	/* Sleep for a few seconds to make sure Explorer has time to
 	   attempt to register the Office hotkeys, and get blocked by 
