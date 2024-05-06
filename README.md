@@ -10,7 +10,7 @@ You'll need to compile the script into a binary, and place it in `C:\ProgramData
 
 # Authors
 
-Originally by Anthony Heddings, whose account disappeared years ago. My fork became the new source (presumably) because it just happened to be the oldest.
+Originally by Anthony Heddings, whose [account](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/anthonyheddings/OfficeKeyFix) disappeared years ago. My fork became the new source (presumably) because it just happened to be the oldest.
 
 # License
 
