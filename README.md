@@ -18,11 +18,28 @@ Full list of unbound shortcuts and their original behavior (`Office` means `Shif
 - `Office+Y`: Opens Yammer by opening `https://go.microsoft.com/fwlink/?linkid=2044904` (which reditects to `https://www.yammer.com/`) in the default browser
 - `Office+Space`: Opens the emoji picker
 
+# Install
+
+1. Download latest release (or build yourself)
+2. Place it in your startup folder - the global startup folder is `C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup`
+3. Run program one time or relog to activate it - you may see a little command window pop up while it does its thing and Explorer will restart automatically
+4. Done!
+
 # Build
 
-You'll need to compile the script into a binary, and place it in `C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup` so it will run on startup.
+## Visual Studio Solution
 
-[Manual compilation instructions (archived from original repo)](https://web.archive.org/web/20201025005256/https://github.com/anthonyheddings/OfficeKeyFix/issues/1).
+There is now a Visual Studio solution supplied.
+
+0. Ensure you have the latest version of Visual Studio - Community Edition is fine (but VS Code isn't!) with C++
+1. Download or clone the source code and extract it
+2. Double click on OfficeKeyFix.vcxproj to launch
+3. Click the `Build` menu item then click `Build Solution`
+4. The bottom pane should show you where it placed the binary, but it should be in the `x64` folder of wherever you put the source code
+
+## Manual
+
+[Compilation setup instructions (archived from original repo)](https://web.archive.org/web/20201025005256/https://github.com/anthonyheddings/OfficeKeyFix/issues/1).
 
 # Alternatives
 
