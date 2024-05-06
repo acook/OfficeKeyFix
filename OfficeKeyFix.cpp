@@ -7,7 +7,7 @@
 int main(int argc, wchar_t* argv[])
 {
 	//Build Array Of Keys To Unregister
-	//These map to W, T, Y, O, P, D, L, X, N, Space, and the Office key itself, respectively.
+	//These map to           W,    T,    Y,    O,    P,    D,    L,    X,    N,    Space, Office Key; respectively
 	UINT offendingKeys[] = { 0x57, 0x54, 0x59, 0x4F, 0x50, 0x44, 0x4C, 0x58, 0x4E, 0x20, NULL };
 
 	//Kill Explorer
@@ -15,7 +15,8 @@ int main(int argc, wchar_t* argv[])
 
 	//Register hotkey
 	for (int i = 0; i < std::size(offendingKeys); i++) {
-		RegisterHotKey(NULL, i, 0x1 + 0x2 + 0x4 + 0x8 | MOD_NOREPEAT, offendingKeys[i]);
+		//                      0x1       0x2           0x4         0x8       0x4000
+		RegisterHotKey(NULL, i, MOD_ALT + MOD_CONTROL + MOD_SHIFT + MOD_WIN | MOD_NOREPEAT, offendingKeys[i]);
 	}
 
 	//Restart Explorer
