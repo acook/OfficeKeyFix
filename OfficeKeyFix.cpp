@@ -14,7 +14,7 @@ int main(int argc, wchar_t* argv[])
 	system("taskkill /IM explorer.exe /F");
 
 	//Register hotkey
-	for (int i = 0; i < 10; i++) {
+	for (int i = 0; i < std::size(offendingKeys); i++) {
 		RegisterHotKey(NULL, i, 0x1 + 0x2 + 0x4 + 0x8 | MOD_NOREPEAT, offendingKeys[i]);
 	}
 
@@ -27,7 +27,7 @@ int main(int argc, wchar_t* argv[])
 	std::this_thread::sleep_for(std::chrono::milliseconds(4000));
 	 
 	//deregister hotkeys by ID
-	for (int i = 0; i < 10; i++) {
+	for (int i = 0; i < std::size(offendingKeys) + 1; i++) {
 		UnregisterHotKey(NULL, i);
 	}
 
