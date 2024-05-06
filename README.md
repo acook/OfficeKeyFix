@@ -1,6 +1,6 @@
 # OfficeKeyFix
 
-Unbinds the Office Key (Shift+Control+Alt+Win) related shortcuts, allowing you to use Office+W in other applications.
+Unbinds the Office Key (Shift+Control+Alt+Win) related shortcuts, also known as the "hyper" key combination, allowing you to use Office+W and other shortcuts in other applications. Or just to avoid opening Yammer by accident.
 
 # Build
 
