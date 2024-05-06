@@ -8,9 +8,20 @@ You'll need to compile the script into a binary, and place it in `C:\ProgramData
 
 [Manual compilation instructions (archived from original repo)](https://web.archive.org/web/20201025005256/https://github.com/anthonyheddings/OfficeKeyFix/issues/1).
 
+# Alternatives
+
+This [branch](https://github.com/acook/OfficeKeyFix/tree/logon) is a complete rewrite of this project which removes the explorer restarting and runs in the background ensuring that explorer doesn't try to reacquire the keybindings. It may be useful as well.
+
 # Authors
 
 Originally by Anthony Heddings, whose [account](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/anthonyheddings/OfficeKeyFix) disappeared years ago. My fork became the new source (presumably) because it just happened to be the oldest.
+
+- @mlidbom     - provided the Visual Studio solution
+- @Vechro      - several improvements pulled from their fork
+- @jorystewart - dynamic key checks
+- @acook       - basic maintenance 
+
+The [logon branch](https://github.com/acook/OfficeKeyFix/tree/logon) was written by me (@acook) with almost nothing remaining of the original.
 
 # License
 
