@@ -31,5 +31,5 @@ int main(int argc, wchar_t* argv[])
 		UnregisterHotKey(NULL, i);
 	}
 
-	return 1;
+	return 0;
 }
