@@ -6,17 +6,20 @@ Unbinds the Office Key (Shift+Control+Alt+Win) related shortcuts, also known as 
 
 Full list of unbound shortcuts and their original behavior (`Office` means `Shift+Control+Alt+Win`):
 
-- `Office`: Open Office UWP app
-- `Office+D`: Open OneDrive
-- `Office+L`: Open LinkedIn by opening `https://go.microsoft.com/fwlink/?linkid=2044786` (which redirects to `https://www.linkedin.com/?trk=Officekey`) in the default browser
-- `Office+N`: Open OneNote for Windows 10 UWP app
-- `Office+O`: Open Outlook
-- `Office+P`: Open PowerPoint
-- `Office+T`: Open Teams by opening `https://go.microsoft.com/fwlink/?linkid=2044782` (which reditects to `https://teams.microsoft.com/`) in the default browser
-- `Office+W`: Open Word
-- `Office+X`: Open Excel
-- `Office+Y`: Open Yammer by opening `https://go.microsoft.com/fwlink/?linkid=2044904` (which reditects to `https://www.yammer.com/`) in the default browser
-- `Office+Space`: Open the emoji picker
+
+| Shortcut       | Behavior                                                                                                                                                         |
+|----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `Office`       | Open Office UWP app                                                                                                                                              |
+| `Office+D`     | Open OneDrive                                                                                                                                                    |
+| `Office+L`     | Open LinkedIn by opening `https://go.microsoft.com/fwlink/?linkid=2044786` (which redirects to `https://www.linkedin.com/?trk=Officekey`) in the default browser |
+| `Office+N`     | Open OneNote for Windows 10 UWP app                                                                                                                              |
+| `Office+O`     | Open Outlook                                                                                                                                                     |
+| `Office+P`     | Open PowerPoint                                                                                                                                                  |
+| `Office+T`     | Open Teams by opening `https://go.microsoft.com/fwlink/?linkid=2044782` (which reditects to `https://teams.microsoft.com/`) in the default browser               |
+| `Office+W`     | Open Word                                                                                                                                                        |
+| `Office+X`     | Open Excel                                                                                                                                                       |
+| `Office+Y`     | Open Yammer by opening `https://go.microsoft.com/fwlink/?linkid=2044904` (which reditects to `https://www.yammer.com/`) in the default browser                   |
+| `Office+Space` | Open the emoji picker                                                                                                                                            |
 
 All the above default shortcuts are *disabled* by this program.
 
